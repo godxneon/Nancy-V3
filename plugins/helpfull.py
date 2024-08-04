@@ -14,10 +14,10 @@ from info import ADMINS
 async def nolink(bot, message):
     user_id = message.from_user.id
     if user_id in ADMINS: return 
-    await message.delete()
-    m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
+    m=await message.reply_sticker("CAACAgUAAxkBAAEIMapmr85L-NVIgOBRRLdseKLCvlwijwACYxAAAq87yVQYZWEW95jOEB4E") 
     await asyncio.sleep(1)
     await m.delete()
+    await message.delete()
 	
 #@Client.on_message(filters.forwarded & filters.incoming)
 #async def forward(bot, message):
