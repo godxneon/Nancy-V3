@@ -16,7 +16,7 @@ async def nolink(bot, message):
     user_id = message.from_user.id
     if user_id in ADMINS: return 
     m=await message.reply_sticker("CAACAgUAAxkBAAEIMapmr85L-NVIgOBRRLdseKLCvlwijwACYxAAAq87yVQYZWEW95jOEB4E") 
-    await asyncio.sleep(1.5)
+    await asyncio.sleep(2)
     await m.delete()
     await message.delete()
 	
