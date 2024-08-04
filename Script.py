@@ -10,8 +10,8 @@ class script(object):
 
     HELPER_TXT = """<b>ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs.</b>"""
     
-    ABOUT_TXT = """<b>◆ ᴍʏ ɴᴀᴍᴇ : <a href='https://t.me/Oru_adaar_Robot'>♡ Nᴀɴᴄʏ ᵛ³</a>
-◆ ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href='https://t.me/Hacker_Jr'>HᴀᴄKᴇʀ Jʀ 〆⁪⁬⁮⁮⁮</a>
+    ABOUT_TXT = """<b>◆ ᴍʏ ɴᴀᴍᴇ : <a href='https://t.me/Oru_adaar_Robot'>⏤͟͟͞͞Nᴀɴᴄʏ ᵛ³</a>
+◆ ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href='https://t.me/Hacker_Jr'>⏤͟͟͞͞HᴀᴄKᴇʀ Jʀ ᠰ⁪⁬⁮⁮⁮</a>
 ◆ ʟɪʙʀᴀʀʏ: <a href='https://pyrofork.mayuri.my.id/'>ᴘʏʀᴏғᴏʀᴋ</a>
 ◆ ʟᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/'>ᴘʏᴛʜᴏɴ 𝟹</a>
 ◆ ᴅᴀᴛᴀ ʙᴀsᴇ: <a href='https://cloud.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a>
