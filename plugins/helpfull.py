@@ -15,6 +15,9 @@ async def nolink(bot, message):
     user_id = message.from_user.id
     if user_id in ADMINS: return 
     await message.delete()
+    m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
+    await asyncio.sleep(1)
+    await m.delete()
 	
 #@Client.on_message(filters.forwarded & filters.incoming)
 #async def forward(bot, message):
