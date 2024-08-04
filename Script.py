@@ -244,14 +244,15 @@ It Helps To Avoid Spamming In Groups.
 • /delg - To Delete A Particular Global Filters.
 • /delallg - To Delete All Global Filters.</b>"""
 
-    FILE_STORE_TXT = """
-<b>Fɪʟᴇ sᴛᴏʀᴇ ɪs ᴛʜᴇ ғᴇᴀᴛᴜʀᴇ ᴡʜɪᴄʜ ᴡɪʟʟ ᴄʀᴇᴀᴛᴇ ᴀ sʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋ ᴏғ ᴀ sɪɴɢʟᴇ ᴏʀ ᴍᴜʟᴛɪᴘʟᴇ ғɪʟᴇs.</b>
+    FILE_STORE_TXT = """<b>➪ <u>FILE STORE NOTE</u>:
 
-Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
-• /batch - <code>Tᴏ ᴄʀᴇᴀᴛᴇ ᴀ ʙᴀᴛᴄʜ ʟɪɴᴋ ᴏғ ᴍᴜʟᴛɪᴘʟᴇ ғɪʟᴇs.</code>
-• /link - <code>Tᴏ ᴄʀᴇᴀᴛᴇ ᴀ sɪɴɢʟᴇ ғɪʟᴇ sᴛᴏʀᴇ ʟɪɴᴋ.</code>
-• /pbatch - <code>Jᴜsᴛ ʟɪᴋᴇ /batch, ʙᴜᴛ ᴛʜᴇ ғɪʟᴇs ᴡɪʟʟ ʙᴇ sᴇɴᴅ ᴡɪᴛʜ ғᴏʀᴡᴀʀᴅ ʀᴇsᴛʀɪᴄᴛɪᴏɴs.</code>
-• /plink - <code>Jᴜsᴛ ʟɪᴋᴇ /link, ʙᴜᴛ ᴛʜᴇ ғɪʟᴇ ᴡɪʟʟ ʙᴇ sᴇɴᴅ ᴡɪᴛʜ ғᴏʀᴡᴀʀᴅ ʀᴇsᴛʀɪᴄᴛɪᴏɴ.</code>"""
+File Store Is The Feature Which Will Create A Shareable Link Of A Single Or Multiple Files.
+
+➪ <u>𝖠𝖵𝖠𝖨𝖫𝖠𝖡𝖫𝖤 𝖢𝖮𝖬𝖬𝖠𝖭𝖣𝖲</u>:
+• /batch - To Create A Batch Link Of Multiple Files.
+• /link - To Create A Single File Store Link 
+• /pbatch - Just Like /batch, But The Files Will Be Send With Forward Restrictions.
+• /plink - Just Like /link, But The File Will Be Send With Forward Restrictions.</b>"""
 
     APPROVED_TEXT = """<b><i>🙋 Hello {mention}
 
