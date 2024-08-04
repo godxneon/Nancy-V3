@@ -51,9 +51,9 @@ async def pm_text(bot, message):
     k = await message.reply_text(
          text=f"<b>🙋‍♂ Hello {user},\n\n​• You Can't Get Movies From Here. Request On Our Movies Group Or Click Request Here Button Below.👇\n\n• നിങ്ങൾക്ക് ഇവിടെ നിന്ന് സിനിമകൾ ലഭിക്കില്ല. എന്റെ ഗ്രൂപ്പിൽ ചോദിക്ക്. 🫶\n\nροωєяє∂ ϐγ :- @Team_KL</b>",   
          reply_markup=InlineKeyboardMarkup([[
-             InlineKeyboardButton("💝 Kᴇʀᴀʟᴀ Rᴏᴄᴋᴇʀs 𝟹.𝟶​ 💝", url=f"https://t.me/KLMovieGroup")
+             InlineKeyboardButton("𝙆𝙀𝙍𝘼𝙇𝘼 𝙍𝙊𝘾𝙆𝙀𝙍𝙎 𝟯.𝟬", url=f"https://t.me/KeralaRockersGroup")
              ],[
-             InlineKeyboardButton("🎭 Kᴇʀᴀʟᴀ Rᴏᴄᴋᴇʀs 𝟸.𝟶​ 🎭", url=f"https://t.me/KL_Group2")]]))
+             InlineKeyboardButton("𝙆𝙀𝙍𝘼𝙇𝘼 𝙍𝙊𝘾𝙆𝙀𝙍𝙎 𝟰.𝟬", url=f"https://t.me/KLMovieGroup")]]))
     await asyncio.sleep(45)
     await k.delete()
     await message.delete()   
