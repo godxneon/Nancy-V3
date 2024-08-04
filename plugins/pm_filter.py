@@ -731,7 +731,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if query.from_user.id in ADMINS:
             await query.message.edit_text(text=script.ADMIN_TXT, reply_markup=reply_markup, parse_mode=enums.ParseMode.HTML)
         else:
-            await query.answer("Sorry This Menu Only For My Admin. 🫢", show_alert=True)  
+            await query.answer("𝖲𝗈𝗋𝗋𝗒 𝖳𝗁𝗂𝗌 𝖬𝖾𝗇𝗎 𝖮𝗇𝗅𝗒 𝖥𝗈𝗋 𝖬𝗒 𝖠𝖽𝗆𝗂𝗇.🫢", show_alert=True)  
     elif query.data == "store_file":
         buttons = [[
             InlineKeyboardButton('⇍ ʙᴀᴄᴋ', callback_data='help')
@@ -740,7 +740,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if query.from_user.id in ADMINS:
             await query.message.edit_text(text=script.FILE_STORE_TXT, reply_markup=reply_markup, parse_mode=enums.ParseMode.HTML)
         else:
-            await query.answer("Sorry This Menu Currently Disabled 😔", show_alert=True)  
+            await query.answer("𝖲𝗈𝗋𝗋𝗒 𝖳𝗁𝗂𝗌 𝖬𝖾𝗇𝗎 𝖢𝗎𝗋𝗋𝖾𝗇𝗍𝗅𝗒 𝖣𝗂𝗌𝖺𝖻𝗅𝖾𝖽.😔", show_alert=True)  
     elif query.data == "filters":
         buttons = [[
             InlineKeyboardButton('ᴍᴀɴᴜᴀʟ ғɪʟᴛᴇʀ', callback_data='manuelfilter'),
@@ -763,7 +763,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if query.from_user.id in ADMINS:
             await query.message.edit_text(text=script.GLOBE_TXT, reply_markup=reply_markup, parse_mode=enums.ParseMode.HTML)
         else:
-            await query.answer("Sorry This Menu Only For My Admin. 🫢", show_alert=True)  
+            await query.answer("𝖲𝗈𝗋𝗋𝗒 𝖳𝗁𝗂𝗌 𝖬𝖾𝗇𝗎 𝖮𝗇𝗅𝗒 𝖥𝗈𝗋 𝖬𝗒 𝖠𝖽𝗆𝗂𝗇.🫢", show_alert=True)  
     elif query.data == "owner_info":
         buttons = [[
             InlineKeyboardButton('⇍ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇏', callback_data='start'),            
